@@ -23,7 +23,7 @@ export function RentalDetailsCard() {
         <View style={{ marginBottom: 60 }}>
           <View style={styles.PhoneContainer}>
             <Ionicons name="call" size={10} />
-            <Text>{` +9231654987`}</Text>
+            <Text>{` (+92)${data?.tenantMobile}`}</Text>
           </View>
           <TouchableOpacity>
             <View
